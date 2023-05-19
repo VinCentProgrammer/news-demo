@@ -1,0 +1,32 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.d-flex{
+    display: flex;
+}
+.position-relative{
+    position: relative;
+}
+ul{
+    padding: 0px;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+
+.clearfix{
+    clear: both;
+    display: block;
+}

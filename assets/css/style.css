@@ -1,0 +1,275 @@
+/* =====================WP-HEADER===================== */
+#header{
+    background-color: #23282d;
+}
+/* --------top-header------- */
+#top-header{
+    padding-top: 33px;
+    justify-content: space-between;
+}
+
+input[name="search"]{
+    background: #131619;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+.icon-search{
+    position: absolute;
+    right: 0;
+    background: #131619;
+    color: #8f8e8f;
+    height: 100%;
+    width: 20%;
+    border: none;
+}
+/* --------menu------- */
+#menu{
+    display: flex;
+    padding: 10px 0px;
+}
+#main-menu{
+    flex-basis: 99%;
+}
+.menu-item{
+    float: left;
+    display: block;
+    padding: 5px 40px 5px 0px;
+    background: #23282d;
+}
+
+.box{
+    background: red;
+    flex-basis: 1%;
+}
+
+.menu-item a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu-item:hover a{
+    color: #4db2ec;
+}
+
+/* ====================WP-CONTENT====================== */
+
+/* ---------post-feature-------- */
+#post-feature hr{
+    border: 1px solid #e8e3e3;
+}
+.title-feature{
+    background: #23282d;
+    color: #fff;
+    font-weight: 480;
+    display: inline-block;
+    padding: 2px 15px;
+    margin: 30px 0px 20px 0px;
+}
+.list-feature{
+    justify-content: space-around;
+}
+
+.feature-item{
+    flex-basis: 33.33%;
+}
+.feature-item a img:hover{
+    transition: transform 1s;
+    transform: scale(1.1,1.1);
+}
+
+.desc{
+    padding: 0px 10px;
+}
+
+.desc a{
+    text-decoration: none;
+    padding: 20px 0px;
+    display: block;
+    color: #5f5f5f;
+    font-weight: 600;
+}
+/* ---------wp-post-news----------- */
+#wp-post-news{
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.post-news{
+    flex-basis: 70%;
+}
+.post-news hr{
+    border: none;
+    margin-top: 0;
+    height: 2px;
+    margin-right: 25px;
+    background: #4db2ec;
+}
+.title-news{
+    background: #4db2ec;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    padding: 5px 30px;
+    margin-bottom: 0;
+}
+#list-post-news{
+    margin-top: 20px;
+    padding: 5px 10px 10px 0px;
+}
+.news-item{
+    margin-bottom: 35px;
+}
+.desc-item{
+    padding-left: 30px;
+}
+.desc-item a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #111111;
+    display: block;
+}
+.desc-item a:hover{
+    color: #4db2ec;
+}
+
+.author{
+    font-size: 11px;
+    color: #111111;
+}
+.date{
+    font-size: 11px;
+    color: #aaaaaa;
+}
+.decs{
+    font-size: 13px;
+    color: #777777;
+    padding: 20px 0px;
+}   
+
+
+/* ------------sidebar------------ */
+
+.sidebar{
+    flex-basis: 30%;
+}
+.table-of-contents hr{
+    margin: 0;
+    height: 1px;
+    background: #ff2d2d;
+    border: none;
+    margin-bottom: 35px;
+}
+.title-table-of-contents{
+    background: #ff2d2d;
+    margin-top: 40px;
+    color: #fcfcfc;
+    margin-bottom: 0px;
+    font-weight: 490;
+    padding: 5px 15px;
+    display: inline-block;
+}
+.topic-item{
+    display: flex;
+    justify-content: space-between;
+}
+.topic-item a{
+    text-decoration: none;
+    color: #212121;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.topic-item:hover a{
+    color: #ff2d2d;
+}
+.topic-item:hover .number-topic{
+    color: #ff2d2d;
+}
+.number-topic{
+    margin-right: 15px;
+}
+
+
+/* =====================WP-FOOTER======================= */
+
+/* ----------wp-about-us---------- */
+#footer{
+    background: #2e2f30;
+}
+
+.logo-footer{
+    flex-basis: 25%;
+}
+.logo-footer a img{
+    margin: 120px 0px;
+}
+.about-us{
+    flex-basis: 50%;
+    padding-top: 78px;
+    color: #f0eaea;
+}
+
+.title-about-us{
+    font-weight: 490;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.link-us{
+    text-decoration: none;
+    color: #fff;
+}
+.link-us:hover{
+    text-decoration: none;
+    color: #4db2ec;
+}
+
+.title-follow-us{
+    font-weight: 490;
+    padding: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+.follow-us{
+    flex-basis: 25%;
+    margin-top: 72px;
+}
+.follow-item i{
+    color: #fff;
+    padding: 5px;
+}
+.follow-item i:hover{
+    color: #4db2ec;
+}
+/* ----------wp-copyright---------- */
+
+.wp-copyright{
+    background: #222527;
+}
+
+.cp-right{
+    justify-content: space-between;
+}
+.copy-right{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 9px 0px;
+    flex-basis: 75%;
+}
+
+.wp-info{
+    flex-basis: 35%;
+}
+
+.info-item{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+}
+.info-item:hover{
+    color: #4db2ec;
+    text-decoration: none;
+}
